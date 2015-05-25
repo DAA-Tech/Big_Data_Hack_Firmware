@@ -1,0 +1,42 @@
+0	1	mikroCARM.exe -MSF -DBG -pSTM32F407VG -RA -LHF -DL -SSA -O11111114 -fo8 -N"C:\Users\Ayodele\Google Drive\DAA STEM Academy\Hack Software\Big_Data_Hack_Firmware\Big_Data_Hack.mcpar" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\defs\" -SP"C:\Users\Ayodele\Google Drive\DAA STEM Academy\Hack Software\Big_Data_Hack_Firmware\" -SP"C:\Users\Ayodele\Desktop\BLEP_Click_MC_V101\BLEP_Click_MC_V101\" -SP"C:\Users\Ayodele\Downloads\1425041453_ble_p_click_mikroc_arm\BLEP_Click_MC_V101\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for ARM\Uses\ST M4\" -SP"D:\_projects\click_boards_examples\BLEP_click\V101\BLEP_Click_MC_V101_Testiranje\" -SP"D:\_JOB\_projects_2015\BLEP_click\V101\BLEP_Click_MC_V101a\" -SP"D:\_projects\click_boards_examples\BLEP_click\V101\BLEP_Click_MC_V101a\" -SP"D:\_projects\click_boards_examples\BLEP_click\V101\BLEP_Click_MC_V101a\sdk\" -SP"D:\_JOB\_projects_2015\BLEP_click\V101\BLEP_Click_MC_V101a\sdk\" -SP"D:\_projects\click_boards_examples\BLEP_click\V101\BLEP_Click_MC_V101_Testiranje\sdk\" -SP"C:\Users\Ayodele\Downloads\1425041453_ble_p_click_mikroc_arm\BLEP_Click_MC_V101\sdk\" -SP"C:\Users\Ayodele\Desktop\BLEP_Click_MC_V101\BLEP_Click_MC_V101\sdk\" -SP"C:\Users\Ayodele\Google Drive\Projects\TrackerNow\Firmware Dev\Working Folder\BLEP_Click_MC_V101\sdk\" -IP"C:\Users\Ayodele\Google Drive\DAA STEM Academy\Hack Software\Big_Data_Hack_Firmware\" "BLEP_Click.c" "Blep.c" "acilib.c" "Android.c" "__Lib_Math.emcl" "__Lib_MathDouble.emcl" "__Lib_Delays.emcl" "__Lib_System_4XX.emcl" "__Lib_GPIO_32F4xx_Defs.emcl" "__Lib_GPIO_32F4xx.emcl" "__Lib_CString.emcl" "__Lib_ADC_123_32F20x_16ch.emcl" "__Lib_SPI_123.emcl" "__Lib_UART_123_45_6.emcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Ayodele\Desktop\BLEP_Click_MC_V101\BLEP_Click_MC_V101'	 
+warning: 0	1501	Specified search path does not exist: 'D:\_projects\click_boards_examples\BLEP_click\V101\BLEP_Click_MC_V101_Testiranje'	 
+warning: 0	1501	Specified search path does not exist: 'D:\_JOB\_projects_2015\BLEP_click\V101\BLEP_Click_MC_V101a'	 
+warning: 0	1501	Specified search path does not exist: 'D:\_projects\click_boards_examples\BLEP_click\V101\BLEP_Click_MC_V101a'	 
+warning: 0	1501	Specified search path does not exist: 'D:\_projects\click_boards_examples\BLEP_click\V101\BLEP_Click_MC_V101a\sdk'	 
+warning: 0	1501	Specified search path does not exist: 'D:\_JOB\_projects_2015\BLEP_click\V101\BLEP_Click_MC_V101a\sdk'	 
+warning: 0	1501	Specified search path does not exist: 'D:\_projects\click_boards_examples\BLEP_click\V101\BLEP_Click_MC_V101_Testiranje\sdk'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Ayodele\Desktop\BLEP_Click_MC_V101\BLEP_Click_MC_V101\sdk'	 
+diagnostics: 0	122	Compilation Started	STM32F407VG.c
+diagnostics: 57000	123	Compiled Successfully	STM32F407VG.c
+diagnostics: 0	122	Compilation Started	__Lib_Delays.c
+diagnostics: 119	123	Compiled Successfully	__Lib_Delays.c
+hint: 66	1164	Variable 'cycles_div_by_10' has been eliminated by optimizer	__Lib_Delays.c
+hint: 88	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+hint: 105	1164	Variable 'NumberOfCyc' has been eliminated by optimizer	__Lib_Delays.c
+diagnostics: 0	122	Compilation Started	__lib_gpio.h
+diagnostics: 870	123	Compiled Successfully	__Lib_GPIO_32F4xx_Defs.c
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 0	1004	interrupt handler (interrupt at 0x0037)	BLEP_Click.c
+hint: 0	1004	interrupt handler (SysTick_interrupt at 0x000F)	BLEP_Click.c
+warning: 71	1503	Result is not defined in function: 'SysTick_interrupt'	BLEP_Click.c
+diagnostics: 305	123	Compiled Successfully	BLEP_Click.c
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 50	1163	Variable 'numOfRead' has been declared, but not used	Blep.c
+warning: 145	1503	Result is not defined in function: 'Blep_WaitForEvent'	Blep.c
+diagnostics: 301	123	Compiled Successfully	Blep.c
+hint: 50	1164	Variable 'rcvDummy' has been eliminated by optimizer	Blep.c
+hint: 284	1164	Variable 'reqLen' has been eliminated by optimizer	Blep.c
+diagnostics: 0	122	Compilation Started	stdint.h
+hint: 386	1163	Variable 'tmpStr' has been declared, but not used	acilib.c
+diagnostics: 634	123	Compiled Successfully	acilib.c
+diagnostics: 0	122	Compilation Started	stdint.h
+diagnostics: 50	123	Compiled Successfully	Android.c
+diagnostics: 0	127	All files Compiled in 532 ms	 
+hint: 0	1144	Used RX: 16 (100%)   Free RX: 0 (0%)	Used RX: 16 (100%)   Free RX: 0 (0%)
+hint: 0	1144	Static RAM (bytes): 1295   Dynamic RAM (bytes): 129773	Static RAM (bytes): 1295   Dynamic RAM (bytes): 129773
+hint: 0	1144	Used ROM (bytes): 11375 (1%)  Free ROM (bytes): 1037201 (99%)	Used ROM (bytes): 11375 (1%)  Free ROM (bytes): 1037201 (99%)
+diagnostics: 0	125	Project Linked Successfully	Big_Data_Hack.mcpar
+diagnostics: 0	128	Linked in 375 ms	 
+diagnostics: 0	129	Project 'Big_Data_Hack.mcpar' completed: 1954 ms	 
+diagnostics: 0	103	Finished successfully: 25 May 2015, 15:22:16	Big_Data_Hack.mcpar
